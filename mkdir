@@ -1,0 +1,3 @@
+init var folder
+folder = $ARG
+createtype "folder" %folder%
