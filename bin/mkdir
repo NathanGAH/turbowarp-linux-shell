@@ -1,3 +1,9 @@
+if $ARGI$
 init var folder
 folder = $ARGI$
 createtype "folder" %folder%
+print "Directory created"
+stop
+ifend
+
+print "No destination stated."
